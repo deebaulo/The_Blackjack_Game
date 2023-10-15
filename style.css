@@ -1,0 +1,59 @@
+
+body {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    background-image: url(img/bj.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 30px;
+    color: goldenrod;
+    letter-spacing: 1px;
+}
+
+.container {
+    background-color: black;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 30px;
+} 
+
+p {
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    width: 110px;
+    background-color: goldenrod;
+    color: whitesmoke;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 200ms;
+    
+    
+}
+button:hover {
+    background-color: darkgoldenrod;
+    transform: scale(1.2);
+
+}
+
+
+
+
